@@ -110,9 +110,9 @@
     .main{
         margin-left: 100px!important;
     }
-    .search{
+    /* .search{
         margin-left: 100px!important;
-    }
+    } */
     .price{
         position: relative;
         float:right;
@@ -138,7 +138,7 @@
 @media screen and (max-width:500px){
     .card{
         width:280px!important;
-        margin-left:180px!important;
+        /* margin-left:180px!important; */
     }
     
     .price{
@@ -150,10 +150,10 @@
     .main{
         margin-left: 50px!important;
     }
-    .search{
+    /* .search{
         position: relative;
         left:120px!important;
-    }
+    } */
     .sidenav{
         width:100px!important
     }
