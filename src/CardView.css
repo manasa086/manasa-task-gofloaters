@@ -15,7 +15,7 @@
 .search{
     position: relative;
     top:20px;
-    left:200px;
+    text-align: center;
 }
 .price{
     position: relative;
