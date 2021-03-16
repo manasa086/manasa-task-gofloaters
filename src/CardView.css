@@ -1,0 +1,214 @@
+.card{
+    width:500px!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+.container-fluid{
+    position: relative;
+    top:20px;
+
+}
+.cardimg{
+    height: 250px!important;
+}
+.search{
+    position: relative;
+    top:20px;
+    text-align: center!important;
+}
+.price{
+    position: relative;
+    float:right;
+    top:-10px!important;
+    display: inline!important;
+}
+.searchText{
+    border: 2px solid black;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px ;
+}
+.searchText:focus{
+    border: 2px solid black;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius:5px ;
+    outline: none!important;
+}
+.searchIcon{
+    border: 2px solid lightslategrey;
+    color:white;
+    background-color: lightslategrey;
+    border-bottom-right-radius:5px ;
+    border-top-right-radius:5px ;
+}
+.map{
+    position: relative;
+    top:30px;
+}
+.link1{
+    cursor:pointer;
+    text-decoration: none!important;
+    color: white!important;
+}
+.link{
+    cursor:pointer;
+    text-decoration: none!important;
+}
+.App1{
+    text-align: center;
+    position: relative;
+    top:20px;
+}
+@media screen and (max-width:500px){
+    .card{
+        width:250px!important;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: slategray;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+/*  */
+.sidenav a {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+@media screen and (max-width:900px){
+    .card{
+        width:300px!important
+    }
+}
+@media screen and (max-width:700px){
+    .main{
+        margin-left: 100px!important;
+    }
+    .search{
+        margin-left: 100px!important;
+    }
+    .price{
+        position: relative;
+        float:right;
+        top:-10px!important; 
+        display: inline!important;
+    }
+    .map{
+        margin-left: 200px!important;
+    }
+}
+@media screen and (max-width:500px){
+    .card{
+        width:280px!important
+    }
+    
+    .price{
+        position: relative;
+        float:right;
+        top:-10px!important; 
+        display: inline!important;
+    }
+    .main{
+        margin-left: 50px!important;
+    }
+    .search{
+        margin-left: 100px!important;
+    }
+    .sidenav{
+        width:100px!important
+    }
+    .map{
+        margin-left: 120px!important;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .map{
+        position: relative;
+        left:-10px!important;
+        width:270px!important;
+     }
+}
+@media screen and (max-width:370px){
+    .card{
+        width:280px!important
+    }
+    .price{
+        position: relative;
+        float:right;
+        top:-10px!important;
+        display: inline!important;
+    }
+    .main{
+        margin-left: 50px!important;
+    }
+    .search{
+        margin-left: 100px!important;
+    }
+    .sidenav{
+        width:80px!important
+    }
+    .map{
+        position: relative;
+        left:40px!important;
+        width:270px!important;
+     }
+}
+@media screen and (max-width:340px)
+{
+    /* .searchIcon{
+        position: relative;
+        top:-30px
+    } */
+    .search{
+        margin-left: 80px!important;
+    }
+    /* .card{
+        width:200px!important
+    } */
+
+}
+@media screen and (max-width:320px)
+{
+    /* .searchIcon{
+        position: relative;
+        top:-30px
+    } */
+    .search{
+        margin-left: 50px!important;
+        
+    }
+    .searchText{
+        width: 100px!important;
+    }
+    /* .card{
+        width:200px!important
+    } */
+
+}

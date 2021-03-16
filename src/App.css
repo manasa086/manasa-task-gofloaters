@@ -1,0 +1,56 @@
+.login__image{
+  width:50px;
+  height: 50px;
+  
+}
+.login__heading{
+  display:inline;
+  position: relative;
+  top:10px
+}
+.login{
+  margin-top: 30px;
+  text-align: center;
+  border:2px solid slategray;
+  width:500px!important;
+  height: 200px!important;
+  border-radius: 5px;
+}
+.login__google{
+  width: 200px;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  position: relative;
+  top:30px;
+}
+@media screen and (max-width:500px){
+  .login{
+    margin-top: 30px;
+    text-align: center;
+    border:2px solid slategray;
+    width:250px!important;
+    height: 200px!important;
+  }
+  .login__image{
+    width:30px;
+    height: 30px;
+    
+  }
+  h1{
+    font-size: 30px!important;
+  }
+  .login__google{
+    width: 200px;
+    text-align: center;
+    position: relative;
+    top: 20px!important;
+  }
+  .login__heading{
+    display:inline;
+    position: relative;
+    top:3px;
+    font-size:20px !important;
+  }
+}
