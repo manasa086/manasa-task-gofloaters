@@ -1,7 +1,7 @@
 .card{
     width:500px!important;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto!important;
+    margin-right: 500px!important;
     margin-top: 25px;
 }
 .container-fluid{
@@ -15,7 +15,7 @@
 .search{
     position: relative;
     top:20px;
-    text-align: center!important;
+    left:200px;
 }
 .price{
     position: relative;
@@ -62,8 +62,8 @@
 @media screen and (max-width:500px){
     .card{
         width:250px!important;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: auto!important;
+        margin-right: auto!important;
         margin-top: 25px;
     }
 }
@@ -123,9 +123,22 @@
         margin-left: 200px!important;
     }
 }
+@media screen and (max-width:750px){
+    .card{
+        margin-left:100px!important;
+        
+    }
+}
+@media screen and (max-width:670px){
+    .card{
+        margin-left:100px!important;
+
+    }
+}
 @media screen and (max-width:500px){
     .card{
-        width:280px!important
+        width:280px!important;
+        margin-left:180px!important;
     }
     
     .price{
@@ -138,7 +151,8 @@
         margin-left: 50px!important;
     }
     .search{
-        margin-left: 100px!important;
+        position: relative;
+        left:120px!important;
     }
     .sidenav{
         width:100px!important
